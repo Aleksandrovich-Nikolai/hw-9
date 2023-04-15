@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .main-container {
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  background-color: rgb(79, 170, 117);
+  background-color: rgb(51, 143, 89);
 }
 
 .main {
@@ -26,12 +26,12 @@ body {
 }
 
 .header,
-.footer,
-.main {
+.main,
+.footer {
   padding: 20px;
 }
 
-.title {
+.section-title {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -74,4 +74,9 @@ body {
   font-weight: 500;
   justify-content: center;
   align-items: center;
+}
+
+.top-menu-item:hover,
+.main-gallery-item:hover {
+  box-shadow:  0px 0px 0px black, 0 0 1em rgb(227, 230, 88);
 }
